@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT GRADE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>
+    <div class="card">
+        <h1>Grade Calculator</h1><br>
+        <h3>Enter marks for 5 subjects(0-100)</h3>
+
+        <div class="marks">
+            <label for="">Subject 1</label><br>
+            <input id="sub1" type="number" placeholder="Eg 94"required><br>
+            <label for="">Subject 2</label><br>
+            <input  id="sub2" type="number" placeholder="Eg 88"required><br>
+            <label for="">Subject 3</label><br>
+            <input  id="sub3" type="number" placeholder="Eg 74"required><br>
+            <label for="">Subject 4</label><br>
+            <input   id="sub4" type="number" placeholder="Eg 68"required><br>
+            <label for="">Subject 5</label><br>
+            <input  id="sub5" type="number" placeholder="Eg 53"required><br>
+        
+        <br><br>
+        <button onclick="calculate()">Calculate Grade</button>
+        <div id="total"></div>
+        <div id="average"></div>
+        <div  id ="grade"></div>
+        </div>
+    
+    </div>
+    </span>
+    <script src ="script.js"></script>
+</body>
+</html>
